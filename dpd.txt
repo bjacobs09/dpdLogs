@@ -1,0 +1,30 @@
+>dpd
+starting deployd v0.6.6...
+  mongod starting C:\Program Files (x86)\Deployd\bin\\..\tools\mongod.exe +0ms
+  mongod pid 6328 +6ms
+  mongod Wed Oct 10 16:09:23 [initandlisten] MongoDB starting : pid=5588 port=3862 dbpath=./data 32-bit host=Brittany-PC
+ +1s
+  mongod Wed Oct 10 16:09:23 [initandlisten]
+Wed Oct 10 16:09:23 [initandlisten] ** NOTE: when using MongoDB 32 bit, you are limited to about 2 gigabytes of data
+Wed Oct 10 16:09:23 [initandlisten] **       see http://blog.mongodb.org/post/137788967/32-bit-limitations
+Wed Oct 10 16:09:23 [initandlisten] **       with --journal, the limit is lower
+Wed Oct 10 16:09:23 [initandlisten]
+Wed Oct 10 16:09:23 [initandlisten] db version v2.0.6, pdfile version 4.5
+Wed Oct 10 16:09:23 [initandlisten] git version: e1c0cbc25863f6356aa4e31375add7bb49fb05bc
+Wed Oct 10 16:09:23 [initandlisten] build info: windows sys.getwindowsversion(major=6, minor=0, build=6002, platform=2, service_pack='Service Pack 2') BOOST_LIB_VERSION=1_42
+Wed Oct 10 16:09:23 [initandlisten] options: { dbpath: "./data", nojournal: true, pidfilepath: "./.dpd/pids/mongod", port: 3862 }
+ +2ms
+  mongod Wed Oct 10 16:09:23 [initandlisten] waiting for connections on port 3862
+ +139ms
+  mongod Wed Oct 10 16:09:23 [websvr] admin web console waiting for connections on port 4862
+ +4ms
+  server started with options {"port":2403,"db":{"host":"127.0.0.1","port":3862,"name":"-deployd"},"env":"development"} +0ms
+  internal-resources constructed +0ms
+listening on port 2403
+type help for a list of commands
+dpd > open
+open
+dpd > dashboard
+dashboard
+dpd >   mongod Wed Oct 10 16:10:23 [clientcursormon] mem (MB) res:24 virt:99 mapped:0
+ +59s
